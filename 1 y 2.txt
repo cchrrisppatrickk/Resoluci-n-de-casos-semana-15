@@ -1,0 +1,15 @@
+while (notDone()) {
+  moveForward();
+  if (isPathForward()) {
+    moveForward();
+  } else {
+    turnLeft();
+  }
+}
+
+
+Algoritmo de la tortuga
+-inicio
+-decirle a la tortuga que avance.
+-si la tortuga llega a la esquina decirle que gire a la derecha y siga avansando
+-si 
